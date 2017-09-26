@@ -1,6 +1,6 @@
-# vue-test-utils-ava-example
+# vue-test-utils-mocha-example
 
-> An example project using vue-test-utils and ava to run unit tests
+> An example project using vue-test-utils and mocha to run unit tests
 
 ## Build Setup
 
