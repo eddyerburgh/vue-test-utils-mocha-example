@@ -9,7 +9,7 @@
     "build": "node build/build.js",
     "lint": "eslint --ext .js,.vue src test",
     "lint:fix": "npm run lint -- --fix",
-    "unit": "ENV=test mocha-webpack --webpack-config build/webpack.basE.conf.js test/specs --recursive --require test/setup.js"
+    "unit": "ENV=test mocha-webpack --webpack-config build/webpack.base.conf.js test/specs --recursive --require test/setup.js"
   },
   "license": "MIT",
   "dependencies": {
@@ -18,7 +18,6 @@
   },
   "devDependencies": {
     "autoprefixer": "^7.1.2",
-    "ava": "^0.21.0",
     "babel-core": "^6.22.1",
     "babel-eslint": "^7.1.1",
     "babel-loader": "^7.1.1",
